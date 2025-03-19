@@ -60,7 +60,7 @@ body {
 /* banner style */
 
 header {
-    background-image: url(../images/home/banner-bg.webp);
+    background-image: url(../images/home/banner-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -678,7 +678,7 @@ footer .social-media {
 /* about product */
 
 .product {
-    background-image: url(../images/home/aboutus-bg.webp);
+    background-image: url(../images/home/aboutus-bg.jpgbanner-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1168,7 +1168,7 @@ footer .social-media {
     }
 
     .product {
-        background-image: url(../images/home/aboutus-bg.webp);
+        background-image: url(../images/home/aboutus-bg.jpgbanner-bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1733,7 +1733,7 @@ footer .social-media {
     }
 
     .product {
-        background-image: url(../images/home/aboutus-bg.webp);
+        background-image: url(../images/home/aboutus-bg.jpgbanner-bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
