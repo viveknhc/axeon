@@ -45,10 +45,10 @@ var swiper = new Swiper(".articleSwiper", {
     spaceBetween: 30,
     grabCursor: true,
     loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
     breakpoints: {
 
         200: {
