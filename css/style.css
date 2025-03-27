@@ -1161,7 +1161,7 @@ main .contact-page {
     justify-content: center;
 }
 
-.contact-details .box.map{
+.contact-details .box.map {
     padding: 0;
     border-radius: 8px;
 }
@@ -1192,7 +1192,7 @@ main .contact-page {
     margin: auto;
 }
 
-.contact-details .box hr{
+.contact-details .box hr {
     margin: 16px 0;
     color: var(--white-color);
     height: 1px;
@@ -1219,4 +1219,169 @@ main .contact-page {
     height: 100%;
     width: 100%;
     border-radius: 8px;
+}
+
+/* Blog */
+
+.blog-page .blog-list .heading-box {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.blog-page .blog-list .heading-box h2 {
+    font-size: 32px;
+    font-family: var(--medium-font);
+    color: #D9D9D9;
+    padding: 0 0 30px 0;
+}
+
+.blog-page .blog-list .content-box {
+    padding: 0 0 50px 0;
+}
+
+.blog-page .blog-list .content-box .card {
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-page .blog-list .content-box .card .author-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.blog-page .blog-list .content-box .card .card-body {
+    padding: 0;
+}
+
+.blog-page .blog-list .content-box .card img {
+    border-radius: 16px;
+}
+
+.blog-page .blog-list .content-box .card .author-wrap img {
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+}
+
+
+.blog-page .blog-list .content-box .card .author-wrap .author-name {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.blog-page .blog-list .content-box .card .author-wrap .date {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
+}
+
+.blog-page .blog-list .content-box .card .card-title {
+    color: #FFF;
+    font-family: var(--medium-font);
+    font-size: 32px;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.blog-page .blog-list .content-box .card .card-text {
+    color: #AAA;
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-page .blog-horizontal{
+    padding: 50px 0 0 0;
+}
+
+.blog-page .blog-horizontal .content-box .card{
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-page .blog-horizontal .content-box .card .card-title {
+    color: #FFF;
+    font-family: var(--medium-font);
+    font-size: 32px;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.blog-page .blog-horizontal .content-box .card .card-text {
+    color: #AAA;
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-page .blog-horizontal .content-box .card .author-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+
+
+.blog-page .blog-horizontal .content-box .card img {
+    border-radius: 16px;
+}
+
+.blog-page .blog-horizontal .content-box .card .author-wrap img {
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+}
+
+
+.blog-page .blog-horizontal .content-box .card .author-wrap .author-name {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.blog-page .blog-horizontal .content-box .card .author-wrap .date {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: var(--light-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
 }
