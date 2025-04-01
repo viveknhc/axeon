@@ -1,14 +1,18 @@
 
+
+
+
+// Diiferent Scrolls
 var swiper = new Swiper(".blogSwiper", {
     slidesPerView: 3.2,
     spaceBetween: 30,
     grabCursor: true,
 
     loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
     breakpoints: {
         200: {
             slidesPerView: 1,

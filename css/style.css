@@ -280,6 +280,7 @@ header .content-box .left .wrap .product-image img.active {
     position: absolute;
     top: -50%;
     right: 0;
+    z-index: -1;
 }
 
 .about-section .heading-box {
@@ -983,6 +984,7 @@ main .about-section {
     position: absolute;
     left: 0;
     bottom: -40%;
+    z-index: -1;
 }
 
 .about-page .why-choose .heading-box {
@@ -1049,15 +1051,15 @@ main .about-section {
 }
 
 /* Contact */
-main .contact-page {
+main .contact-page .contact-section {
     padding: 50px 0;
 }
 
-.contact-page .heading-box {
+.contact-page .contact-section .heading-box {
     text-align: center;
 }
 
-.contact-page .heading-box h2 {
+.contact-page .contact-section .heading-box h2 {
     color: #FFF;
     text-align: center;
     font-family: var(--medium-font);
@@ -1069,12 +1071,12 @@ main .contact-page {
     padding: 45px 0 45px 0;
 }
 
-.contact-page .content-box {
+.contact-page .contact-section .content-box {
     border: 1px solid #FFF;
     padding: 70px 48px;
 }
 
-.contact-page .content-box h2 {
+.contact-page .contact-section .content-box h2 {
     color: #FFF;
     text-align: center;
     font-family: var(--medium-font);
@@ -1087,7 +1089,7 @@ main .contact-page {
 
 }
 
-.contact-page .content-box h6 {
+.contact-page .contact-section .content-box h6 {
     color: #FFF;
     text-align: center;
     font-family: var(--light-font);
@@ -1099,16 +1101,16 @@ main .contact-page {
     margin: auto;
 }
 
-.contact-page .content-box form input,
-.contact-page .content-box form textarea {
+.contact-page .contact-section .content-box form input,
+.contact-page .contact-section .content-box form textarea {
     width: 100%;
     background-color: #042E37;
     border: 1px solid #666;
     padding: 15px 18px;
 }
 
-.contact-page .content-box form input::placeholder,
-.contact-page .content-box form textarea::placeholder {
+.contact-page .contact-section .content-box form input::placeholder,
+.contact-page .contact-section .content-box form textarea::placeholder {
     color: #FFF;
     font-family: var(--regular-font);
     font-size: 18px;
@@ -1117,11 +1119,11 @@ main .contact-page {
 }
 
 
-.contact-page .content-box form .btn-wrap {
+.contact-page .contact-section .content-box form .btn-wrap {
     text-align: center;
 }
 
-.contact-page .content-box form .btn-wrap button {
+.contact-page .contact-section .content-box form .btn-wrap button {
     border-radius: 8px;
     border: 1px solid #FFF;
     background: #000;

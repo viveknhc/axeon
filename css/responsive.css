@@ -1184,4 +1184,265 @@
         line-height: 24px;
         color: #696868;
     }
+
+    /* About Page */
+
+    .about-section .content-box .left{
+        text-align: center;
+    }
+
+    .about-page .mission {
+        background: #051E24;
+        padding: 35px 10px 0 10px;
+    }
+
+    .about-page .mission .heading-box {
+        text-align: center;
+        padding: 0 0 5px 0;
+    }
+
+    .about-page .mission .heading-box h2 {
+        color: var(--white-color);
+        text-align: center;
+        font-family: var(--regular-font);
+        font-size: 26px;
+        font-style: normal;
+        line-height: 50px;
+    }
+
+    .about-page .vision .heading-box h2 {
+        color: var(--white-color);
+        text-align: center;
+        font-family: var(--regular-font);
+        font-size: 26px;
+        font-style: normal;
+        line-height: 50px;
+    }
+
+    .about-page .vision {
+        background: #051E24;
+        padding: 30px 10px 107px 10px;
+    }
+
+    .about-page .mission .left p {
+        color: #D9D9D9;
+        font-family: var(--regular-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: 0.16px;
+    }
+
+    .about-page .vision .right p {
+        color: #D9D9D9;
+        font-family: var(--regular-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+        letter-spacing: 0.16px;
+    }
+
+    .about-page .why-choose {
+        padding: 45px 0 100px 0;
+        position: relative;
+    }
+
+    .about-page .why-choose .heading-box h2 {
+        color: var(--white-color);
+        text-align: center;
+        font-family: var(--regular-font);
+        font-size: 22px;
+        font-style: normal;
+        line-height: 32px;
+    }
+
+    .about-page .why-choose .heading-box p {
+        color: #D9D9D9;
+        font-family: var(--regular-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: 22px;
+        letter-spacing: 0.16px;
+    }
+
+    .about-page .why-choose .card h5 {
+        color: #FFF;
+        text-align: center;
+        font-family: var(--bold-font);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        margin: 15px 0 15px 0;
+    }
+
+    .about-page .why-choose .card .card-footer {
+        color: #FFF;
+        text-align: center;
+        font-family: var(--regular-font);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        border: none;
+        margin: 15px 0 0 0;
+    }
+
+    .about-page .why-choose .card .card-body{
+        padding: 0;
+    }
+
+    .blog-page .blog-list .heading-box {
+        text-align: center;
+        padding: 40px 0 19px 0;
+    }
+
+    .blog-page .blog-list .heading-box h2 {
+        font-size: 22px;
+        font-family: var(--medium-font);
+        color: #D9D9D9;
+        padding: 0 0 10px 0;
+    }
+
+    .blog-page .blog-list .content-box .card .card-title {
+        color: #FFF;
+        font-family: var(--medium-font);
+        font-size: 22px;
+        font-style: normal;
+        line-height: 30px;
+    }
+
+    .blog-page .blog-list .content-box .card .card-text {
+        color: #AAA;
+        font-family: var(--light-font);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .blog-page .blog-list .content-box .card .author-wrap {
+        display: flex
+    ;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    .blog-page .blog-list .content-box .card .author-wrap .author-name {
+        color: #FFF;
+        font-family: var(--light-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: 22px;
+        margin: 0;
+        display: flex
+    ;
+        align-items: center;
+    }
+
+    .blog-page .blog-list .content-box .card .author-wrap img {
+        border-radius: 50%;
+        margin: 0 10px 0 0;
+    }
+    .blog-page .blog-list .content-box .card .author-wrap .date {
+        color: rgba(255, 255, 255, 0.40);
+        font-family: var(--light-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .blog-page .blog-list .content-box {
+        padding: 0 0 30px 0;
+    }
+
+    .blog-page .blog-horizontal {
+        padding: 30px 0 0 0;
+    }
+
+    .blog-horizontal .card-body{
+        padding: 20px 0 0 0;
+    }
+
+    .blog-page .blog-horizontal .content-box .card{
+        margin: 0 0 30px 0;
+    }
+
+    .blog-page .blog-horizontal .content-box .card .card-title {
+        color: #FFF;
+        font-family: var(--medium-font);
+        font-size: 22px;
+        font-style: normal;
+        line-height: 30px;
+    }
+
+    .blog-page .blog-horizontal .content-box .card .card-text {
+        color: #AAA;
+        font-family: var(--light-font);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0;
+    }
+
+    .contact-page .contact-section .heading-box h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: var(--medium-font);
+        font-size: 22px;
+        font-style: normal;
+        line-height: 27px;
+        letter-spacing: 0.16px;
+        padding: 40px 0 19px 0;
+    }
+
+    .contact-page .contact-section .content-box {
+        border: 1px solid #FFF;
+        padding: 50px 25px;
+    }
+
+    .contact-page .contact-section .content-box h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: var(--medium-font);
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0.16px;
+        padding: 0 0 0px 0;
+    }
+
+    .contact-page .contact-section .content-box h6 {
+        color: #FFF;
+        text-align: center;
+        font-family: var(--light-font);
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+        padding: 0 0 36px 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-page .contact-section .content-box form input, .contact-page .contact-section .content-box form textarea {
+        width: 100%;
+        background-color: #042E37;
+        border: 1px solid #666;
+        padding: 9px 13px;
+    }
+
+
 }
