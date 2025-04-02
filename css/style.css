@@ -1313,11 +1313,11 @@ main .contact-page .contact-section {
     text-overflow: ellipsis;
 }
 
-.blog-page .blog-horizontal{
+.blog-page .blog-horizontal {
     padding: 50px 0 0 0;
 }
 
-.blog-page .blog-horizontal .content-box .card{
+.blog-page .blog-horizontal .content-box .card {
     width: 100%;
     background: transparent;
     border: none;
@@ -1386,4 +1386,103 @@ main .contact-page .contact-section {
     font-style: normal;
     line-height: 24px;
     margin: 0;
+}
+
+/* BLOG INNER PAGE */
+
+.blog-inner-page .banner .back-btn {
+    background-color: var(--black-color);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 4px;
+    text-decoration: none;
+    border-radius: 16px;
+    margin: 14px 0 16px 0;
+}
+
+.blog-inner-page .banner .back-btn p {
+    margin: 0;
+    color: var(--www-olaelectric-com-white, var(--color-white-solid, #FFF));
+    text-align: center;
+
+    font-family: var(--light-font);
+    font-size: 16.031px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-24, 24px);
+    /* 149.708% */
+
+}
+
+.blog-inner-page .banner .blog-detail-head {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 25px;
+}
+
+.blog-inner-page .banner .blog-detail-head .left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+
+.blog-inner-page .banner .blog-detail-head .right {
+    border-radius: 16px;
+    background: #005163;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.blog-inner-page .banner .blog-detail-head .right h2 {
+    color: var(--white-color);
+    font-family: var(--medium-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blog-inner-page .banner .blog-detail-head .right .blog-box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-inner-page .banner .blog-detail-head .right .blog-box-footer .author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.blog-inner-page .banner .blog-detail-head .right .blog-box-footer .author p {
+    margin: 0;
+    color: var(--white-color);
+    font-family: var(--light-font);
+    font-size: var(--font-size-sm, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-size-xl, 24px);
+}
+
+.blog-inner-page .banner .blog-detail-head .right .blog-box-footer h6{
+    color: rgba(255, 255, 255, 0.40);
+
+    font-family: var(--light-font);
+    font-size: var(--font-size-sm, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-size-xl, 24px); /* 150% */
+}
+
+.blog-content .content-box{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
 }
