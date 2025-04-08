@@ -1,7 +1,6 @@
 
 
 
-
 // Diiferent Scrolls
 var swiper = new Swiper(".blogSwiper", {
     slidesPerView: 3.2,
@@ -168,4 +167,7 @@ function fadeImages() {
 setInterval(fadeImages, 2000); // Change image every 3 seconds
 
 
+
+
+  
 

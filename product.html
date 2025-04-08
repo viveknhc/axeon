@@ -15,15 +15,12 @@
 
 <body>
 
-    <main class="blog-inner-page" data-scroll-container>
-        <header data-scroll-section>
+    <div data-scroll-container>
+
+        <header class="product-header" data-scroll-section>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-
                     <div class="navbar-wrap">
-
-
-
                         <a class="navbar-brand">
                             <img src="images/home/logo.png" alt="">
                         </a>
@@ -36,21 +33,21 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="product.html">Products</a>
+                                    <a class="nav-link active" href="product.html">Products</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="blog.html">Blog</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
 
 
@@ -65,218 +62,238 @@
                 </div>
             </nav>
 
+            <div class="content-box">
+
+
+            </div>
+
         </header>
 
-        <section class="banner" data-scroll-section>
+        <section class="product-listing" data-scroll-section>
+
+            <img class="shape1" src="images/product/shape1.png" alt="">
+            <img class="shape2" src="images/product/shape2.png" alt="">
             <div class="container">
-                <a class="back-btn" href="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M4.55679 6.26193C5.60887 7.2108 6.69048 8.69587 6.7014 10.7841L5.18949 10.792C5.18149 9.26308 4.35621 8.13924 3.43479 7.35537C2.97846 6.96708 2.51876 6.68111 2.17186 6.49227C1.99937 6.39834 1.85701 6.32972 1.76028 6.28552C1.71196 6.26345 1.67508 6.24756 1.65183 6.23771L1.62717 6.2275L1.62427 6.22633L1.62286 6.22579L-0.00228038 5.59066L1.54311 4.76258L1.54899 4.75936L1.57582 4.74444C1.60064 4.73049 1.63893 4.70861 1.68878 4.67908C1.78847 4.61995 1.9338 4.5305 2.10959 4.41297C2.46256 4.17685 2.92977 3.8327 3.39301 3.39927C4.35113 2.50275 5.14021 1.3683 5.13371 0.12552L6.64562 0.117613C6.65585 2.07469 5.44298 3.61745 4.39499 4.59815C4.3716 4.62002 4.34822 4.64167 4.32483 4.66312L15.9928 4.60211L16.0011 6.20208L4.55679 6.26193Z"
-                            fill="white" />
-                    </svg>
-                    <p>Back</p>
-                </a>
-
-                <div class="blog-detail-head">
-                    <div class="left">
-                        <img src="images/blog/blog-inner-banner.png" alt="">
-                    </div>
-                    <div class="right">
-                        <h2>
-                            Electric vehicles: Transforming urban Mobility
-                        </h2>
-
-                        <div class="blog-box-footer">
-                            <div class="author">
-                                <img src="images/blog/avatar.png" alt="">
-                                <p>Seersha</p>
-                            </div>
-
-                            <h6>01 June 2024</h6>
-                        </div>
-                    </div>
+                <div class="heading-box">
+                    <h2>Products</h2>
                 </div>
-            </div>
 
-        </section>
-
-        <section class="blog-content" data-scroll-section>
-            <div class="container">
                 <div class="content-box">
-                    <div class="left">
-
-                        <h3>Related Article</h3>
-
-                        <div class="wrap">
-
-                            <a href="blog-single.html" class="card">
-                                <img src="images/blog/blog1.png" class="card-img-top img-fluid" alt="...">
-                                <div class="author-wrap">
-                                    <p class="author-name">
-                                        <img class="img-fluid" src="images/blog/avatar.png" alt="">
-                                        <span>Seersha</span>
-                                    </p>
-    
-                                    <p class="date">
-                                        01 June 2024
-                                    </p>
-                                </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Electric vehicles: Transforming urban Mobility</h5>
-    
-    
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
                                 </div>
                             </a>
-    
-                            <a href="blog-single.html" class="card">
-                                <img src="images/blog/blog1.png" class="card-img-top img-fluid" alt="...">
-                                <div class="author-wrap">
-                                    <p class="author-name">
-                                        <img class="img-fluid" src="images/blog/avatar.png" alt="">
-                                        <span>Seersha</span>
-                                    </p>
-    
-                                    <p class="date">
-                                        01 June 2024
-                                    </p>
-                                </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Electric vehicles: Transforming urban Mobility</h5>
-    
-    
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
                                 </div>
-                            </a>
-    
-                            <a href="blog-single.html" class="card">
-                                <img src="images/blog/blog1.png" class="card-img-top img-fluid" alt="...">
-                                <div class="author-wrap">
-                                    <p class="author-name">
-                                        <img class="img-fluid" src="images/blog/avatar.png" alt="">
-                                        <span>Seersha</span>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
                                     </p>
-    
-                                    <p class="date">
-                                        01 June 2024
-                                    </p>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Electric vehicles: Transforming urban Mobility</h5>
-    
-    
                                 </div>
                             </a>
                         </div>
 
 
-                    </div>
-                    <div class="right">
-                        <p>
-                            The rapid adoption of electric vehicles (EVs) is transforming the automotive industry,
-                            opening up new career pathways and fueling advancements in technology. From battery
-                            innovations to smart mobility solutions, the EV revolution is not only reducing carbon
-                            footprints but also reshaping global job markets.
-                        </p>
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
 
-                        <h3 class="main-heading">
-                            The Job Boom in the EV Industry
-                        </h3>
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
 
-                        <p>
-                            As more countries push for greener transportation solutions, the demand for skilled
-                            professionals in the EV sector has surged. Key areas experiencing job growth include:
-                        </p>
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
 
-                        <ul>
-                            <li>
-                                Battery Manufacturing & R&D: The push for longer-lasting, faster-charging, and more
-                                sustainable batteries has led to a growing need for engineers, chemists, and material
-                                scientists.
-                            </li>
-                            <li>
-                                Charging Infrastructure Development: With the expansion of charging networks,
-                                opportunities have risen for electrical engineers, software developers, and
-                                infrastructure planners.
-                            </li>
-                            <li>
-                                Vehicle Production & Assembly: Traditional automakers and new EV startups alike require
-                                technicians, production line workers, and supply chain managers to scale production.
-                            </li>
-                            <li>
-                                Smart Mobility & Software Development: The integration of AI, IoT, and connected vehicle
-                                technology has increased demand for software engineers, data scientists, and
-                                cybersecurity experts.
-                            </li>
-                        </ul>
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
 
-
-                        <h3 class="main-heading">
-                            Advancements in Battery Technology
-                        </h3>
-
-                        <p>
-                            One of the most critical aspects of the EV revolution is the evolution of battery
-                            technology. Companies are heavily investing in research to enhance energy density, reduce
-                            charging time, and improve battery lifespan. Innovations such as solid-state batteries,
-                            lithium-sulfur batteries, and advanced battery recycling methods are paving the way for more
-                            efficient and sustainable EVs. </p>
-
-                        <p>
-                            These advancements not only contribute to better-performing vehicles but also create job
-                            opportunities in research, development, and production.
-                        </p>
-
-
-                        <h3 class="main-heading">
-                            The Role of Startups & Innovations
-                        </h3>
-
-                        <p>
-                            Startups are playing a crucial role in accelerating EV adoption by introducing cutting-edge
-                            solutions. Some key areas where startups are making an impact include:</p>
-
-                        <ul>
-                            <li>
-                                Battery Swapping & Fast Charging: Companies are developing ultra-fast charging solutions
-                                and battery-swapping stations to eliminate range anxiety. </li>
-                            <li>
-                                Autonomous & Connected EVs: AI-driven self-driving technology and vehicle-to-everything
-                                (V2X) communication are revolutionizing how EVs interact with infrastructure and other
-                                vehicles. </li>
-                            <li>
-                                Sustainable Materials & Recycling: Startups are focusing on eco-friendly battery
-                                materials and innovative recycling processes to minimize environmental impact. </li>
-                            <li>
-                                EV Fleet Management: New-age startups are offering AI-powered fleet management solutions
-                                for ride-sharing, delivery, and logistics companies. </li>
-                        </ul>
-
-                        <h3 class="main-heading">
-                            A Future of Sustainable Growth
-                        </h3>
-
-                        <p>
-                            The EV industry’s growth is not just about replacing gasoline-powered cars but about
-                            creating a sustainable ecosystem that benefits businesses, workers, and the environment.
-                            Governments and private players are investing in training programs, research initiatives,
-                            and infrastructure development to ensure a smooth transition to an electric future.
-                        </p>
-
-                        <p>
-                            With the continued expansion of EV technology, job seekers can look forward to diverse
-                            opportunities in engineering, technology, logistics, and beyond. As the world shifts toward
-                            a cleaner, smarter transportation landscape, the EV industry promises to be a driving force
-                            behind employment and innovation in the years to come.
-                        </p>
-
-
-
-
-
-
+                        <div class="col-lg-6">
+                            <a class="card h-100" href="product-detail.html">
+                                <img src="images/product/product7.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASSENGER ELECTRIC AUTO</h5>
+                                    <p class="card-text">180 km Per Charge | 50 km/hr | Li-ion, 60V (230 AH)</p>
+                                    <hr>
+                                    <p class="price-head">Introductory price</p>
+                                    <p class="price">₹__,__</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p href="">Explore <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13"
+                                            viewBox="0 0 17 13" fill="none">
+                                            <g clip-path="url(#clip0_92_302)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M11.6896 6.55604C10.6425 5.60168 9.56869 4.11098 9.56869 2.02271H11.0806C11.0806 3.55166 11.9 4.6798 12.8173 5.46847C13.2716 5.85914 13.7298 6.14751 14.0757 6.33817C14.2477 6.433 14.3897 6.50236 14.4862 6.54706C14.5344 6.56939 14.5712 6.58547 14.5944 6.59545L14.619 6.60578L14.6219 6.60698L14.6233 6.60751L16.2451 7.25113L14.6954 8.07113L14.6895 8.07432L14.6626 8.0891C14.6377 8.10292 14.5993 8.12459 14.5493 8.15386C14.4493 8.21246 14.3035 8.30115 14.1271 8.41776C13.7729 8.65203 13.3039 8.99374 12.8384 9.42474C11.8756 10.3162 11.0806 11.4465 11.0806 12.6893H9.56869C9.56869 10.7322 10.7896 9.19585 11.8427 8.22064C11.8662 8.1989 11.8897 8.17737 11.9132 8.15604H0.245117V6.55604H11.6896Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_92_302">
+                                                    <rect width="16" height="16" fill="white"
+                                                        transform="translate(0.245117 -1.19995)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <footer data-scroll-section>
@@ -509,9 +526,30 @@
                 </div>
             </div>
         </footer>
-    </main>
 
+    </div>
 
+    <script>
+
+        let productBGImages = [
+            "images/product/product-listing-banner1.png",
+            "images/product/product-listing-banner2.png",
+            "images/product/product-listing-banner3.png",
+            "images/product/product-listing-banner4.png",
+
+        ];
+
+        let cIndex = 0;
+        let pHeader = document.querySelector(".product-header");
+
+        function changeBackground() {
+            pHeader.style.backgroundImage = `url(${productBGImages[cIndex]})`;
+            cIndex = (cIndex + 1) % productBGImages.length;
+        }
+
+        setInterval(changeBackground, 3000); // Change every 3 seconds
+        changeBackground(); // Set initial background
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

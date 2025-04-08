@@ -59,7 +59,7 @@ body {
 
 /* banner style */
 
-header {
+.home-header {
     background-image: url(../images/home/banner-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1485,17 +1485,29 @@ main .contact-page .contact-section {
 
 .blog-content .content-box {
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 2fr 5fr;
 }
 
-.blog-inner-page .content-box{
+.blog-inner-page .content-box {
     padding: 64px 0 0 0;
+}
+
+.blog-inner-page .blog-content .content-box .left {
+    padding: 0 30px 0 0;
+    border-right: 1px solid #515151
+}
+
+.blog-inner-page .blog-content .content-box .left .wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
 }
 
 .blog-inner-page .blog-content .content-box .left h3 {
     border-radius: 8px;
     background: #054E5D;
     padding: 10px 30px;
+    margin: 0 0 16px 0;
 
     color: #FFF;
     text-align: center;
@@ -1508,24 +1520,614 @@ main .contact-page .contact-section {
     letter-spacing: var(--letter-spacing-0_16, 0.16px);
 }
 
-.blog-inner-page .blog-content .content-box .left .card{
+.blog-inner-page .blog-content .content-box .left .card {
     background-color: transparent;
     border-bottom: 1px solid #515151;
     border: 0;
+    padding: 0 0 18px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #515151;
+    border-radius: 0;
 }
 
 
-.blog-inner-page .blog-content .content-box .left .card .card-title{
+.blog-inner-page .blog-content .content-box .left .card .card-title {
     color: #FFF;
     font-family: var(--bold-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
+    margin: 0;
 }
 
 
-.blog-inner-page .blog-content .content-box .left .card  .author-wrap{
+.blog-inner-page .blog-content .content-box .left .card .author-wrap {
     display: flex;
     justify-content: space-between;
+    padding: 16px 0;
+}
+
+.blog-inner-page .blog-content .content-box .left .card .author-wrap .author-name {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    margin: 0;
+}
+
+.blog-inner-page .blog-content .content-box .left .card .author-wrap .author-name span {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: var(--font-size-sm, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-size-xl, 24px);
+    margin: 0;
+}
+
+.blog-inner-page .blog-content .content-box .left .card .author-wrap .date {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: var(--light-font);
+    font-size: var(--font-size-sm, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-size-xl, 24px);
+    /* 150% */
+    margin: 0;
+
+}
+
+.blog-inner-page .blog-content .content-box .left .card .card-body {
+    padding: 0;
+}
+
+.blog-inner-page .blog-content .content-box .right {
+    padding: 0 0 0 30px;
+}
+
+.blog-inner-page .blog-content .content-box .right p {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.blog-inner-page .blog-content .content-box .right h3 {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.blog-inner-page .blog-content .content-box .right ul li {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+/* Product Page */
+
+.product-header {
+    height: 110vh;
+    background-image: url(../images/product/product-listing-banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition: background-image 1s ease-in-out;
+}
+
+.product-listing {
+    background-color: #e6faff;
+    position: relative;
+}
+
+.product-listing .shape1 {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.product-listing .shape2 {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+
+.product-listing .heading-box {
+    text-align: center;
+    padding: 29px 0 24px 0;
+}
+
+.product-listing .heading-box h2 {
+    color: #000;
+    text-align: center;
+    font-family: var(--medium-font);
+    font-size: var(--font-size-32, 32px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--line-height-48, 48px);
+    /* 150% */
+    letter-spacing: var(--letter-spacing-0_16, 0.16px);
+}
+
+.product-listing .card {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #FFF;
+    border: none;
+
+}
+
+.product-listing .card .card-body {
+    padding: 40px 40px 0 40px;
+}
+
+
+.product-listing .card .card-title {
+    color: #000;
+    font-family: var(--regular-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--line-height-25, 25px);
+    /* 104.167% */
+    letter-spacing: var(--letter-spacing--0_36, -0.36px);
+}
+
+.product-listing .card .card-text {
+    color: var(--www-olaelectric-com-river-bed, var(--color-azure-31, #41515C));
+    font-family: var(--regular-font);
+    font-size: 16.031px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--line-height-25, 25px);
+    /* 155.945% */
+    letter-spacing: var(--letter-spacing--0_36, -0.36px);
+    padding: 24px 0;
+    margin: 0;
+}
+
+.product-listing .card .price-head {
+    margin: 0;
+    padding: 32px 0 10px 0;
+    color: var(--www-olaelectric-com-pale-sky, var(--color-azure-47, #687986));
+    font-family: var(--regular-font);
+    font-size: 16.313px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--line-height-18, 18px);
+    /* 110.345% */
+}
+
+.product-listing .card .price {
+    color: var(--www-olaelectric-com-mirage, var(--color-azure-12, #151D2A));
+    font-family: var(--regular-font);
+    font-size: 28.617px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--line-height-34, 34px);
+    /* 118.81% */
+}
+
+.product-listing .card-footer {
+    padding: 32px 40px 40px 40px;
+    border: none;
+    background-color: #fff;
+}
+
+.product-listing .card .card-footer p {
+    padding: 20px;
+    color: var(--www-olaelectric-com-white, var(--color-white-solid, #FFF));
+    font-family: var(--regular-font);
+    text-align: center;
+    font-size: 16.031px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-24, 24px);
+    /* 149.708% */
+    background-color: #212121;
+    border-radius: 4px;
+    margin: 0;
+}
+
+
+.product-listing .card hr {
+    background-color: rgba(0, 0, 0, 0.07);
+    height: 1px;
+}
+
+
+/* Product Inner Page */
+
+
+/* Product Page */
+
+.product-inner-header {
+    height: 110vh;
+    background-image: url(../images/product/inner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition: background-image 1s ease-in-out;
+}
+
+
+.product-inner-content {
+    background-color: #e6faff;
+    position: relative;
+}
+
+.product-inner-content .shape1 {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.product-inner-content .shape2 {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+
+
+
+.product-inner-content .performance .content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 54px 0 0 0;
+}
+
+.product-inner-content .performance .content-box .box {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.product-inner-content .performance {
+    padding: 0px 0 73px 0;
+}
+
+.product-inner-content .performance .heading-box h2 {
+    color: var(--www-olaelectric-com-shark, var(--color-azure-11, #181D22));
+
+    /* www.olaelectric.com/Semantic/Heading 2 */
+    font-family: var(--regular-font);
+    font-size: 46.617px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-62_64, 62.64px);
+    letter-spacing: var(--letter-spacing--0_54, -0.54px);
+}
+
+.product-inner-content .performance .heading-box p {
+    color: var(--www-olaelectric-com-river-bed, var(--color-azure-31, #41515C));
+    font-family: var(--regular-font);
+    font-size: 15.328px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-25_2, 25.2px);
+    padding: 36px 0 0 0;
+}
+
+.product-inner-content .performance .content-box .box.box1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    background: var(--fffdddaa, linear-gradient(112deg, #049DB4 1.92%, #000 98.54%));
+
+    height: 251.72px;
+}
+
+.product-inner-content .performance .content-box .box.box2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+
+    height: 517.2px;
+    background-image: url(../images/product/perfomance1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-inner-content .performance .content-box .box.box3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+
+    background: var(--fffdddaa, linear-gradient(112deg, #049DB4 1.92%, #000 98.54%));
+
+    height: 251.72px;
+}
+
+
+.product-inner-content .performance .content-box .box.box4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+
+    height: 517.2px;
+    background-image: url(../images/product/perfomance2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.product-inner-content .performance .content-box .box.box5 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+    background: var(--fffdddaa, linear-gradient(112deg, #049DB4 1.92%, #000 98.54%));
+
+    height: 251.72px;
+}
+
+
+.product-inner-content .performance .content-box .box.box6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+
+    height: 517.2px;
+    background-image: url(../images/product/perfomance3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-inner-content .charge {
+    background-color: var(--black-color);
+}
+
+.product-inner-content .charge .heading-box {
+    padding: 54px 0 90px 0;
+}
+
+.product-inner-content .charge .heading-box h2 {
+    margin: 0;
+
+    color: var(--www-olaelectric-com-shark, var(--color-azure-11, #FFF));
+
+    /* www.olaelectric.com/Semantic/Heading 2 */
+    font-family: var(--regular-font);
+    font-size: 46.617px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-62_64, 62.64px);
+    letter-spacing: var(--letter-spacing--0_54, -0.54px);
+}
+
+.product-inner-content .charge .content-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+
+.product-inner-content .charge .content-box .box1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.product-inner-content .charge .content-box .box2 {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+
+.product-inner-content .charge .content-box .box3 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.product-inner-content .charge .content-box .box4 {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+}
+
+
+
+.product-inner-content .charge .content-box .box5 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+
+.product-inner-content .charge .content-box .box6 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+.product-inner-content .charge .content-box .box7 {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
+
+
+
+.product-inner-content .charge .content-box .box {
+    padding: 41px;
+    border-radius: 4px;
+    border: 1px solid rgba(123, 200, 255, 0.11);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+}
+
+.product-inner-content .charge .content-box .box h5 {
+    color: #049DB4;
+    font-family: var(--regular-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+
+
+.product-inner-content .charge .content-box .box h2 {
+    color: #FFF;
+    font-family: var(--regular-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.product-inner-content .charge .list-content {
+    padding: 90px 0 100px 0;
+}
+
+.product-inner-content .charge .list-content .list-row {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+
+
+.product-inner-content .charge .list-content h5 {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 16px 0;
+}
+
+
+.product-inner-content .charge .list-content .list-row h4 {
+    color: #FFF;
+    font-family: var(--light-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.list-content .main-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+
+
+.list-content .main-wrap .wrap1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.list-content .main-wrap .wrap2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.list-content .main-wrap .wrap3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.list-content .main-wrap .wrap4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+.list-content .main-wrap .wrap5{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.cta{
+    padding: 50px;
+    background-color: #e6faff;
+}
+
+.cta .content-box{
+    background-color: #049DB4;
+    border-radius: 36px;
+    position: relative;
+}
+
+.cta .content-box .left{
+    border-radius: 36px 0 0 36px;
+    height: 100%;
+    position: relative;
+}
+
+.cta .content-box .left::after{
+    content: '';
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(4, 157, 180, 0.00) 0.23%, #049DB4 100.52%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.cta .content-box .left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 36px 0 0 36px;
+
+}
+
+.cta .content-box img::after{
+    content: "dh";
+}
+
+
+.cta .content-box .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 60px 0;
+}
+
+.cta .content-box .right h2{
+    color: #FFF;
+    font-family: var(--regular-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.cta .content-box .right p{
+    color: rgba(255, 255, 255, 0.63);
+    font-family: var(--regular-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding: 20px 0 0 0;
+}
+
+.cta .content-box .arrow{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translate(0,-50%);
 }
